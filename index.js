@@ -10,11 +10,11 @@ function validateForm() {
     var password = document.getElementById("password").value;
 
     //validasi username dan password, username dan password bisa diganti sesuai keinginan
-    if (username === "adel" && password === "Pacar Kalian") {
+    if (username === "pacar kalian" && password === "pacar kalian") {
         Swal.fire({
             icon: "success",
             title: "Login berhasil!",
-            text: "Selamat datang Pacar Kaliankk",
+            text: "Selamat datang pacar kaliankk",
             showConfirmButton: false,
             timer: 1500,
         }).then(function () {
